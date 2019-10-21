@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cart" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:gravity="center"
+        android:text="Grocery Store"
+        android:textColor="#000" />
+
+    <ProgressBar
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:padding="6dp" />
+
+</RelativeLayout>

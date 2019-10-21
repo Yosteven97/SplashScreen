@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="welcome_activity">Welcome!!\nGrocery Store App ready to Serve You</string>
+</resources>
